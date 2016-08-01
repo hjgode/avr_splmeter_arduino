@@ -54,7 +54,7 @@ void audioget_init() {
 #ifdef TIMSK
 	TIMSK |= (1<<TOIE1); //enable timer1
 #else
-  TIMSK0 |= (1<<TOIE1); //enable timer1
+  TIMSK1 |= (1<<TOIE1); //enable timer1
 #endif  
 	//init fft variables
 	uint16_t i = 0;
