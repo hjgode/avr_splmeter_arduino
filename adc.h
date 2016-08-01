@@ -12,7 +12,13 @@ Please refer to LICENSE file for licensing information.
 #define ADC_H
 
 //setup values
-#define ADC_REF 0 //adc reference voltage (see adc_init function for reference)
+#define ADC_REF 1 //0 //adc reference voltage (see adc_init function for reference)
+/*
+ * 0 = AREF, Internal Vref turned off
+ * 1 = ref is AVCC with external capacitor at AREF pin
+ * 2 = reserved?, Internal 1.1V Voltage Reference with external capacitor at AREF pin
+ * 3 = ref is Internal 2.56V Voltage Reference with external cap at AREF
+ */
 #define ADC_PRESCALER 16 //adc prescaler (2, 4, 8, 16, 32, 64, 128)
 #define ADC_JUSTIFY 'R' //adc justify ('L' or 'R')
 #define ADC_TRIGGERON 0 //adc trigger (1 on - 0 off)
