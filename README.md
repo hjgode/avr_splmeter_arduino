@@ -6,8 +6,13 @@ using uart library by Peter Fleury
 
 The code compiles for Atmega 328/168 and Atmega8 Optiboot in IDE 1.6.5.
 
-Hardware not yet tested, as missing the microphone and amplifier currently.
+= Tested with Arduino Nano, OK
 
++ See adc.h to configure the correct AREF source, I used "#define ADC_REF 1"
++ Signal was connected to A3.
++ Used processing with pde in "audioget_visualizer" to see spectrum.
++ Use processing with pde "audioget_plot" to see dbA
+ 
 
 # Original README:
 ==================================================
