@@ -8,7 +8,7 @@ The code compiles for Atmega 328/168 and Atmega8 Optiboot in IDE 1.6.5.
 
 = Tested with Arduino Nano, OK
 
-+ See adc.h to configure the correct AREF source, I used "#define ADC_REF 1"
++ See adc.h to configure the correct AREF source, I used "#define ADC_REF 1", that means AVCC is connected to VCC (5V) and a capacitor is connected to VREF.
 + Signal was connected to A3.
 + see audioget.h to switch between fast and slow SPL sampling (#define AUGIOGET_TW...)
 + see audioget.h and setup your microphone sensivity and 'transfer factor' (see below)
