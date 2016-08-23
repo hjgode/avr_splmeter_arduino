@@ -16,9 +16,10 @@ The code compiles for Atmega 328/168 and Atmega8 Optiboot in IDE 1.6.5.
 + Use processing with pde "audioget_plot" to see dbA
  
 ## Sensivity and 'transfer factor' (audioget.h)
-//define voltage reference and spl db reference
-AUDIOGET_VOLTREF 0.000315 
-AUDIOGET_DBREF 30
+
++ AUDIOGET_VOLTREF 0.000315 
++ AUDIOGET_DBREF 30
+
 from my understanding the above values can be taken from the electret microphone data sheet. Normally, only the sensivity is given. Go to http://www.sengpielaudio.com/calculator-transferfactor.htm to calculate the voltage reference (or transfer factor?). Ensure you are using the correct reference, normally this is 1V/Pa.
 
 # Original README:
