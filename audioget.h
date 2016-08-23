@@ -28,7 +28,9 @@ volatile int16_t audioget_fi[AUDIOGET_SAMPLES];
 //define time weight type
 #define AUGIOGET_TWF 1 //time weight Fast
 #define AUGIOGET_TWS 2 //time weight Slow
-#define AUGIOGET_TW AUGIOGET_TWS
+
+#define AUGIOGET_TW AUGIOGET_TWS  //CONFIG: use fast or slow time weight
+
 //time-weight is a RC filter, exponential averaging is equivalent to a simple RC filter
 //Y=(1-alpha)*Y + alpha*Ynew, alpha between 1 and 0
 //given a sample rate Fs (Hz), number samples taken every seconds
@@ -79,8 +81,23 @@ volatile int16_t audioget_fi[AUDIOGET_SAMPLES];
 
 // INPUT hardware setup ----------------
 //define voltage reference and spl db reference
-#define AUDIOGET_VOLTREF 0.000315
-#define AUDIOGET_DBREF 32
+#define AUDIOGET_VOLTREF 0.000126 //0.000315 
+#define AUDIOGET_DBREF 38 //30
+/* transfer factor, see http://www.sengpielaudio.com/calculator-transferfactor.htm
+Referenz 94db/1VPa
+Sensitivity = 20 × log (transfer factor in mV/Pa)
+transfer factor in mV/Pa = 10^(sensivity/20), FORMEL: 
+             value=Math.round(1000*Math.pow(10,(inp.value/20))*1*1000000)/1000000);
+			 LINUX: echo "scale=4;1000*(e((-32/20)*l(10))*1*1000000)/1000000;" |bc -l
+     NEW                        OLD
+   94dB 1Pascal               74db 0.1 Pascal
+-30dB -> 31.6228 mV/Pa      316.2278 mV/Pa
+-32db -> 25.1189 mV/Pa      251.1886 mV/Pa
+-38db -> 12.5893 mV/Pa		125.8925 mV/Pa
+-40db -> 10.0000 mV/Pa      100.0000 mV/Pa
+
+315 mV -> -10db  			 315mV -> -30db 
+*/
 
 #ifdef __cplusplus
  extern "C" {

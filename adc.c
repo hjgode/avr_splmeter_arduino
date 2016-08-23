@@ -1,4 +1,4 @@
-/*
+/*ADC_REFRES
 ADC Library 0x06
 
 copyright (c) Davide Gironi, 2013
@@ -89,7 +89,12 @@ void adc_init()
 	#if defined (__AVR_ATtiny13A__) || defined (__AVR_ATmega168__) || defined (__AVR_ATmega168P__) || defined (__AVR_ATmega328__) || defined (__AVR_ATmega328P__) || defined (__AVR_ATmega2560__)
 	ADCSRB = 0;
 	#endif
-
+/* ATMEGA 328p datasheet
+0 0 AREF, Internal V ref turned off
+0 1 AV CC with external capacitor at AREF pin
+1 0 Reserved
+1 1 Internal 1.1V Voltage Reference with external capacitor at AREF pin
+*/
 	// Set ADC reference
 	#if defined (__AVR_ATtiny13A__)
 		#if ADC_REF == 0
@@ -97,17 +102,23 @@ void adc_init()
 		#elif ADC_REF == 1
 		ADMUX |= (1 << REFS0); // Internal Voltage Reference
 		#endif
+
 	#elif defined (__AVR_ATmega8__) || defined (__AVR_ATmega168__) || defined (__AVR_ATmega168P__) || defined (__AVR_ATmega328__) || defined (__AVR_ATmega328P__) || defined (__AVR_ATmega2560__)
 		#if ADC_REF == 0
-		ADMUX |= (0 << REFS1) | (0 << REFS0); // AREF, Internal Vref turned off
+		  ADMUX |= (0 << REFS1) | (0 << REFS0); // AREF, Internal Vref turned off
+		
 		#elif ADC_REF == 1
-		ADMUX |= (0 << REFS1) | (1 << REFS0); // AVCC with external capacitor at AREF pin
+		  ADMUX |= (0 << REFS1) | (1 << REFS0); // AVCC with external capacitor at AREF pin
+		
 		#elif ADC_REF == 2
-		#if defined (__AVR_ATmega2560__)
-		ADMUX |= (1 << REFS1) | (0 << REFS0); // Internal 1.1V Voltage Reference with external capacitor at AREF pin
-		#endif
+	
+		 #if defined (__AVR_ATmega2560__)
+		  ADMUX |= (1 << REFS1) | (0 << REFS0); // Internal 1.1V Voltage Reference with external capacitor at AREF pin
+      // ??? Atmega328p 1 1 = internal 1.1V Ref with Cap at AREF
+		 #endif
+		
 		#elif ADC_REF == 3
-		ADMUX |= (1 << REFS1) | (1 << REFS0); // Internal 2.56V Voltage Reference with external cap at AREF
+		 ADMUX |= (1 << REFS1) | (1 << REFS0); // Internal 2.56V (or 1.1V atmeag328p) Voltage Reference with external cap at AREF
 		#endif
 	#endif
 	
