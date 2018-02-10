@@ -1,0 +1,906 @@
+Archive member included because of file (symbol)
+
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3.o)
+                              ./src/audioget/audioget.o (__addsf3)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3.o) (__addsf3x)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(cmpsf2.o)
+                              ./src/audioget/audioget.o (__ltsf2)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3.o)
+                              ./src/audioget/audioget.o (__divsf3)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3x.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3.o) (__divsf3x)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixsfsi.o)
+                              ./src/audioget/audioget.o (__fixsfsi)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixunssfsi.o)
+                              ./src/main.o (__fixunssfsi)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(floatsisf.o)
+                              ./src/audioget/audioget.o (__floatunsisf)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_cmp.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(cmpsf2.o) (__fp_cmp)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_inf.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o) (__fp_inf)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_nan.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o) (__fp_nan)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscA.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o) (__fp_pscA)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscB.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o) (__fp_pscB)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_round.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3.o) (__fp_round)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_split3.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o) (__fp_split3)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_zero.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o) (__fp_zero)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log10.o)
+                              ./src/audioget/audioget.o (log10)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log10.o) (log)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3.o)
+                              ./src/audioget/audioget.o (__mulsf3)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3x.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log.o) (__mulsf3x)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(sqrt.o)
+                              ./src/audioget/audioget.o (sqrt)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_mpack.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log.o) (__fp_mpack)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_norm2.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(sqrt.o) (__fp_norm2)
+/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_powser.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log.o) (__fp_powser)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+                              ./src/audioget/fftradix4.o (__divmodhi4)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+                              ./src/adc/adc.o (__divmodsi4)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/crtm8.o (exit)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+                              ./src/audioget/audioget.o (__do_copy_data)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+                              ./src/uart/uart.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+                              ./src/audioget/audioget.o (__mulhisi3)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+                              /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o) (__umulhisi3)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+                              /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o) (__usmulhisi3_tail)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+                              /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+                              /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o) (__udivmodsi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+audioget_fi         0x80              ./src/audioget/audioget.o
+audioget_fr         0x80              ./src/audioget/audioget.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/crtm8.o
+LOAD ./src/uart/uart.o
+LOAD ./src/audioget/audioget.o
+LOAD ./src/audioget/fftradix4.o
+LOAD ./src/adc/adc.o
+LOAD ./src/main.o
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1a86
+ *(.vectors)
+ .vectors       0x00000000       0x26 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/crtm8.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_fplib
+                0x00000026       0x5a /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log.o)
+                0x00000080                . = ALIGN (0x2)
+                0x00000080                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000080        0x0 linker stubs
+ *(.trampolines*)
+                0x00000080                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data.Sinewave
+                0x00000080      0x200 ./src/audioget/fftradix4.o
+                0x00000080                Sinewave
+                0x00000280                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000280                __ctors_start = .
+ *(.ctors)
+                0x00000280                __ctors_end = .
+                0x00000280                __dtors_start = .
+ *(.dtors)
+                0x00000280                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000280        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/crtm8.o
+                0x00000280                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000280        0xc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/crtm8.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000028c       0x16 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+                0x0000028c                __do_copy_data
+ .init4         0x000002a2       0x10 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+                0x000002a2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000002b2        0x4 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/crtm8.o
+ *(.init9)
+ *(.text)
+ .text          0x000002b6        0x2 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/crtm8.o
+                0x000002b6                __vector_1
+                0x000002b6                __bad_interrupt
+                0x000002b6                __vector_6
+                0x000002b6                __vector_3
+                0x000002b6                __vector_13
+                0x000002b6                __vector_17
+                0x000002b6                __vector_7
+                0x000002b6                __vector_5
+                0x000002b6                __vector_4
+                0x000002b6                __vector_9
+                0x000002b6                __vector_2
+                0x000002b6                __vector_15
+                0x000002b6                __vector_14
+                0x000002b6                __vector_10
+                0x000002b6                __vector_16
+                0x000002b6                __vector_18
+ .text          0x000002b8        0x0 ./src/uart/uart.o
+ .text          0x000002b8        0x0 ./src/audioget/audioget.o
+ .text          0x000002b8        0x0 ./src/audioget/fftradix4.o
+ .text          0x000002b8        0x0 ./src/adc/adc.o
+ .text          0x000002b8        0x0 ./src/main.o
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(cmpsf2.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3x.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixsfsi.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixunssfsi.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(floatsisf.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_cmp.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_inf.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_nan.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscA.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscB.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_round.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_split3.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_zero.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log10.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3x.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(sqrt.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_mpack.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_norm2.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_powser.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+ .text          0x000002b8        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+                0x000002b8                . = ALIGN (0x2)
+ *(.text.*)
+ .text.__vector_11
+                0x000002b8       0x58 ./src/uart/uart.o
+                0x000002b8                __vector_11
+ .text.__vector_12
+                0x00000310       0x4a ./src/uart/uart.o
+                0x00000310                __vector_12
+ .text.uart_init
+                0x0000035a       0x28 ./src/uart/uart.o
+                0x0000035a                uart_init
+ .text.uart_getc
+                0x00000382       0x3c ./src/uart/uart.o
+                0x00000382                uart_getc
+ .text.uart_putc
+                0x000003be       0x22 ./src/uart/uart.o
+                0x000003be                uart_putc
+ .text.uart_puts
+                0x000003e0       0x16 ./src/uart/uart.o
+                0x000003e0                uart_puts
+ .text.uart_puts_p
+                0x000003f6       0x1c ./src/uart/uart.o
+                0x000003f6                uart_puts_p
+ .text.__vector_8
+                0x00000412       0x34 ./src/audioget/audioget.o
+                0x00000412                __vector_8
+ .text.audioget_init
+                0x00000446       0x4c ./src/audioget/audioget.o
+                0x00000446                audioget_init
+ .text.audioget_getsamples
+                0x00000492       0x90 ./src/audioget/audioget.o
+                0x00000492                audioget_getsamples
+ .text.audioget_computefft
+                0x00000522       0x18 ./src/audioget/audioget.o
+                0x00000522                audioget_computefft
+ .text.audioget_doweighting
+                0x0000053a      0x16e ./src/audioget/audioget.o
+                0x0000053a                audioget_doweighting
+ .text.audioget_getmagnitude
+                0x000006a8       0x98 ./src/audioget/audioget.o
+                0x000006a8                audioget_getmagnitude
+ .text.audioget_getfsc
+                0x00000740        0xa ./src/audioget/audioget.o
+                0x00000740                audioget_getfsc
+ .text.audioget_getrmsval
+                0x0000074a      0x126 ./src/audioget/audioget.o
+                0x0000074a                audioget_getrmsval
+ .text.audioget_getspl
+                0x00000870       0x36 ./src/audioget/audioget.o
+                0x00000870                audioget_getspl
+ .text.rev_bin  0x000008a6       0x7c ./src/audioget/fftradix4.o
+                0x000008a6                rev_bin
+ .text.fft8_dit_core_p1
+                0x00000922      0x2e0 ./src/audioget/fftradix4.o
+                0x00000922                fft8_dit_core_p1
+ .text.fft_radix4_I
+                0x00000c02      0x5be ./src/audioget/fftradix4.o
+                0x00000c02                fft_radix4_I
+ .text.adc_setchannel
+                0x000011c0       0x14 ./src/adc/adc.o
+                0x000011c0                adc_setchannel
+ .text.adc_readsel
+                0x000011d4        0xe ./src/adc/adc.o
+                0x000011d4                adc_readsel
+ .text.adc_read
+                0x000011e2        0x4 ./src/adc/adc.o
+                0x000011e2                adc_read
+ .text.adc_init
+                0x000011e6       0x10 ./src/adc/adc.o
+                0x000011e6                adc_init
+ .text.acd_getrealvref
+                0x000011f6       0x46 ./src/adc/adc.o
+                0x000011f6                acd_getrealvref
+ .text.adc_getresistence
+                0x0000123c       0x4a ./src/adc/adc.o
+                0x0000123c                adc_getresistence
+ .text.adc_getvoltage
+                0x00001286       0x4e ./src/adc/adc.o
+                0x00001286                adc_getvoltage
+ .text.adc_emafilter
+                0x000012d4       0x2c ./src/adc/adc.o
+                0x000012d4                adc_emafilter
+ .text.startup.main
+                0x00001300       0xcc ./src/main.o
+                0x00001300                main
+ .text.avr-libc.fplib
+                0x000013cc        0xa /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3.o)
+                0x000013cc                __subsf3
+                0x000013ce                __addsf3
+ .text.avr-libc.fplib
+                0x000013d6       0xc0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o)
+                0x000013f0                __addsf3x
+ .text.avr-libc.fplib
+                0x00001496        0x8 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(cmpsf2.o)
+                0x00001496                __lesf2
+                0x00001496                __nesf2
+                0x00001496                __eqsf2
+                0x00001496                __cmpsf2
+                0x00001496                __ltsf2
+ .text.avr-libc.fplib
+                0x0000149e        0x4 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3.o)
+                0x0000149e                __divsf3
+ .text.avr-libc.fplib
+                0x000014a2       0xcc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3x.o)
+                0x000014b8                __divsf3x
+                0x000014bc                __divsf3_pse
+ .text.avr-libc.fplib
+                0x0000156e        0xa /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixsfsi.o)
+                0x0000156e                __fixsfsi
+ .text.avr-libc.fplib
+                0x00001578       0x58 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixunssfsi.o)
+                0x00001578                __fixunssfsi
+ .text.avr-libc.fplib
+                0x000015d0       0x7a /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(floatsisf.o)
+                0x000015d0                __floatunsisf
+                0x000015d4                __floatsisf
+ .text.avr-libc.fplib
+                0x0000164a       0x48 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_cmp.o)
+                0x0000164a                __fp_cmp
+ .text.avr-libc.fplib
+                0x00001692        0xc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_inf.o)
+                0x00001692                __fp_inf
+ .text.avr-libc.fplib
+                0x0000169e        0x6 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_nan.o)
+                0x0000169e                __fp_nan
+ .text.avr-libc.fplib
+                0x000016a4        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscA.o)
+                0x000016a4                __fp_pscA
+ .text.avr-libc.fplib
+                0x000016b2        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscB.o)
+                0x000016b2                __fp_pscB
+ .text.avr-libc.fplib
+                0x000016c0       0x22 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_round.o)
+                0x000016c0                __fp_round
+ .text.avr-libc.fplib
+                0x000016e2       0x44 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_split3.o)
+                0x000016e2                __fp_split3
+                0x000016f2                __fp_splitA
+ .text.avr-libc.fplib
+                0x00001726        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_zero.o)
+                0x00001726                __fp_zero
+                0x00001728                __fp_szero
+ .text.avr-libc.fplib
+                0x00001734        0xc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log10.o)
+                0x00001734                log10
+ .text.avr-libc.fplib
+                0x00001740       0x8a /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log.o)
+                0x0000174a                log
+ .text.avr-libc.fplib
+                0x000017ca        0x4 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3.o)
+                0x000017ca                __mulsf3
+ .text.avr-libc.fplib
+                0x000017ce       0xc2 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3x.o)
+                0x000017e2                __mulsf3x
+                0x000017e6                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x00001890       0x84 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(sqrt.o)
+                0x00001898                sqrt
+ .text.avr-libc.fplib
+                0x00001914       0x1c /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_mpack.o)
+                0x00001914                __fp_mpack
+                0x00001918                __fp_mpack_finite
+ .text.avr-libc.fplib
+                0x00001930        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_norm2.o)
+                0x00001930                __fp_norm2
+ .text.avr-libc.fplib
+                0x0000193e       0x4a /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_powser.o)
+                0x0000193e                __fp_powser
+ .text.libgcc.mul
+                0x00001988        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x00001988       0x26 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+                0x00001988                __divmodhi4
+                0x00001988                _div
+ .text.libgcc   0x000019ae        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x000019ae        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x000019ae        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x000019ae        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x000019ae        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x000019ae        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x000019ae       0x28 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+                0x000019ae                __divmodsi4
+ .text.libgcc   0x000019d6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x000019d6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x000019d6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x000019d6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x000019d6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x000019d6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x000019d6       0x10 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+                0x000019d6                __negsi2
+ .text.libgcc   0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .text.libgcc   0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc   0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x000019e6        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x000019e6        0xc /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+                0x000019e6                __mulhisi3
+ .text.libgcc.div
+                0x000019f2        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+ .text.libgcc   0x000019f2        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+ .text.libgcc.prologue
+                0x000019f2        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+ .text.libgcc.builtins
+                0x000019f2        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+ .text.libgcc.fmul
+                0x000019f2        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+ .text.libgcc.fixed
+                0x000019f2        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+ .text.libgcc.mul
+                0x000019f2       0x18 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+                0x000019f2                __umulhisi3
+ .text.libgcc.div
+                0x00001a0a        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00001a0a        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00001a0a        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00001a0a        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00001a0a        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00001a0a        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00001a0a        0xc /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+                0x00001a0a                __usmulhisi3
+                0x00001a0c                __usmulhisi3_tail
+ .text.libgcc.div
+                0x00001a16        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+ .text.libgcc   0x00001a16        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.prologue
+                0x00001a16        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.builtins
+                0x00001a16        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.fmul
+                0x00001a16        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.fixed
+                0x00001a16        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+ .text.libgcc.mul
+                0x00001a16        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x00001a16       0x28 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+                0x00001a16                __udivmodhi4
+ .text.libgcc   0x00001a3e        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00001a3e        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00001a3e        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00001a3e        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00001a3e        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00001a3e        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x00001a3e       0x44 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+                0x00001a3e                __udivmodsi4
+ .text.libgcc   0x00001a82        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00001a82        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00001a82        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00001a82        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00001a82        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+                0x00001a82                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001a82        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+                0x00001a82                exit
+                0x00001a82                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001a82        0x4 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001a86                _etext = .
+
+.data           0x00800060      0x100 load address 0x00001a86
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/crtm8.o
+ .data          0x00800060        0x0 ./src/uart/uart.o
+ .data          0x00800060        0x0 ./src/audioget/audioget.o
+ .data          0x00800060        0x0 ./src/audioget/fftradix4.o
+ .data          0x00800060        0x0 ./src/adc/adc.o
+ .data          0x00800060        0x0 ./src/main.o
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(cmpsf2.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3x.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixsfsi.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixunssfsi.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(floatsisf.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_cmp.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_inf.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_nan.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscA.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscB.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_round.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_split3.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_zero.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log10.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3x.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(sqrt.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_mpack.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_norm2.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_powser.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x00800060      0x100 ./src/audioget/audioget.o
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800160                . = ALIGN (0x2)
+                0x00800160                _edata = .
+                0x00800160                PROVIDE (__data_end, .)
+
+.bss            0x00800160      0x14c
+                0x00800160                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/crtm8.o
+ .bss           0x00800160        0x0 ./src/uart/uart.o
+ .bss           0x00800160        0x0 ./src/audioget/audioget.o
+ .bss           0x00800160        0x0 ./src/audioget/fftradix4.o
+ .bss           0x00800160        0x0 ./src/adc/adc.o
+ .bss           0x00800160        0x0 ./src/main.o
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(addsf3x.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(cmpsf2.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(divsf3x.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixsfsi.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fixunssfsi.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(floatsisf.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_cmp.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_inf.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_nan.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscA.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_pscB.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_round.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_split3.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_zero.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log10.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(log.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(mulsf3x.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(sqrt.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_mpack.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_norm2.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr4/libm.a(fp_powser.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodhi4.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_divmodsi4.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_negsi2.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_exit.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_copy_data.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_clear_bss.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_mulhisi3.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_umulhisi3.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_usmulhisi3.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodhi4.o)
+ .bss           0x00800160        0x0 /usr/lib/gcc/avr/4.8.1/avr4/libgcc.a(_udivmodsi4.o)
+ *(.bss*)
+ .bss.UART_LastRxError
+                0x00800160        0x1 ./src/uart/uart.o
+ .bss.UART_RxTail
+                0x00800161        0x1 ./src/uart/uart.o
+ .bss.UART_RxHead
+                0x00800162        0x1 ./src/uart/uart.o
+ .bss.UART_TxTail
+                0x00800163        0x1 ./src/uart/uart.o
+ .bss.UART_TxHead
+                0x00800164        0x1 ./src/uart/uart.o
+ .bss.UART_RxBuf
+                0x00800165       0x20 ./src/uart/uart.o
+ .bss.UART_TxBuf
+                0x00800185       0x20 ./src/uart/uart.o
+ .bss.retval.2107
+                0x008001a5        0x4 ./src/audioget/audioget.o
+ .bss.audioget_fsc
+                0x008001a9        0x2 ./src/audioget/audioget.o
+ .bss.audioget_takesample
+                0x008001ab        0x1 ./src/audioget/audioget.o
+                0x008001ab                audioget_takesample
+ *(COMMON)
+ COMMON         0x008001ac      0x100 ./src/audioget/audioget.o
+                0x008001ac                audioget_fi
+                0x0080022c                audioget_fr
+                0x008002ac                PROVIDE (__bss_end, .)
+                0x00001a86                __data_load_start = LOADADDR (.data)
+                0x00001b86                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008002ac        0x0
+                0x008002ac                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008002ac                PROVIDE (__noinit_end, .)
+                0x008002ac                _end = .
+                0x008002ac                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 ./src/uart/uart.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 ./src/audioget/audioget.o
+ .comment       0x00000000       0x12 ./src/audioget/fftradix4.o
+ .comment       0x00000000       0x12 ./src/adc/adc.o
+ .comment       0x00000000       0x12 ./src/main.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(avr_splmeter.elf elf32-avr)
+LOAD linker stubs
